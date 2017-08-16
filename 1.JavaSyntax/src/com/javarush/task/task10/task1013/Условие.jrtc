@@ -1,0 +1,7 @@
+<div class="wdghtml" taskKey="com.javarush.task.task10.task1013">
+<h3>Конструкторы класса Human</h3>
+<p>Напиши класс <strong><span class="text-corporate">Human</span></strong> с <span class="text-user"><strong>6</strong></span> полями.<br />
+Придумай и реализуй <span class="text-user"><strong>10</strong></span> различных конструкторов для него.<br />
+Каждый конструктор должен иметь смысл.</p>
+
+</div>

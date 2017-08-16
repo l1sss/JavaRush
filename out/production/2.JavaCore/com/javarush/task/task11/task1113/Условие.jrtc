@@ -1,0 +1,6 @@
+<div class="wdghtml" taskKey="com.javarush.task.task11.task1113">
+<h3>Эволюция</h3>
+<p>Изменить <strong>четыре класса</strong>: <span class="text-corporate"><strong>Fish</strong></span> (<strong>Рыба</strong>), <span class="text-corporate"><strong>Animal</strong></span> (<strong>Животное</strong>), <span class="text-corporate"><strong>Ape</strong></span> (<strong>Обезьяна</strong>), <span class="text-corporate"><strong>Human</strong></span> (<strong>Человек</strong>).<br />
+Унаследовать <strong>животное</strong> от <strong>рыбы</strong>, <strong>обезьяну</strong> от <strong>животного</strong> и <strong>человека</strong> от <strong>обезьяны</strong>.</p>
+
+</div>

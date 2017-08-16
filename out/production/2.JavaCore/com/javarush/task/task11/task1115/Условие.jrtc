@@ -1,0 +1,6 @@
+<div class="wdghtml" taskKey="com.javarush.task.task11.task1115">
+<h3>От школьника к рабству</h3>
+<p>Изменить четыре класса: <span class="text-corporate"><strong>Schoolboy</strong></span> (<strong>школьник</strong>), <span class="text-corporate"><strong>Student</strong></span> (<strong>студент</strong>), <span class="text-corporate"><strong>Worker</strong></span> (<strong>Сотрудник</strong>), <span class="text-corporate"><strong>Slave</strong></span> (<strong>Раб</strong>).<br />
+Унаследовать <strong>студента</strong> от <strong>школьника</strong>, <strong>сотрудника</strong> от <strong>студента</strong>, <strong>раба</strong> от <strong>сотрудника</strong>.</p>
+
+</div>

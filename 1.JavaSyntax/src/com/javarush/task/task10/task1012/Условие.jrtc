@@ -1,0 +1,13 @@
+<div class="wdghtml" taskKey="com.javarush.task.task10.task1012">
+<h3>Количество букв</h3>
+<p>Ввести с клавиатуры <span class="text-user"><strong>10</strong></span> строчек и подсчитать в них количество различных букв (<em>для </em><span class="text-user"><strong>33</strong></span><em> букв алфавита</em>). Вывести результат на экран.</p>
+<p><strong>Пример вывода:</strong><br />
+<code>а 5<br />
+б 8<br />
+в 3<br />
+г 7<br />
+д 0<br />
+…<br />
+я 9</code></p>
+
+</div>

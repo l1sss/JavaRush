@@ -1,0 +1,5 @@
+<div class="wdghtml" taskKey="com.javarush.task.task11.task1117">
+<h3>Вторая правильная «цепочка наследования»</h3>
+<p><strong></strong> Расставь правильно «<em><strong>цепочку наследования</strong></em>» в классах: <span class="text-corporate"><strong>Carnivore</strong></span> (<strong>плотоядное животное</strong>), <span class="text-corporate"><strong>Cow</strong></span> (<strong>корова</strong>), <span class="text-corporate"><strong>Dog</strong></span> (<strong>собака</strong>), <span class="text-corporate"><strong>Pig</strong></span> (<strong>свинья</strong>), <span class="text-corporate"><strong>Animal</strong></span> (<strong>животное</strong>).</p>
+
+</div>

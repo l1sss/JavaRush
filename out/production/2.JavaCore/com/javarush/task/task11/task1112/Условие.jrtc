@@ -1,0 +1,6 @@
+<div class="wdghtml" taskKey="com.javarush.task.task11.task1112">
+<h3>AppleIPhone и SamsungGalaxyS2</h3>
+<p>Изменить два класса <span class="text-corporate"><strong>AppleIPhone</strong></span> и <span class="text-corporate"><strong>SamsungGalaxyS2</strong></span>.<br />
+Унаследовать <span class="text-corporate"><strong>SamsungGalaxyS2</strong></span> от <span class="text-corporate"><strong>AppleIPhone</strong></span>.</p>
+
+</div>

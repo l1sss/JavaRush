@@ -1,0 +1,6 @@
+<div class="wdghtml" taskKey="com.javarush.task.task11.task1111">
+<h3>Адам и Ева</h3>
+<p>Изменить два класса <span class="text-corporate"><strong>Adam</strong></span> (<strong>Адам</strong>) и <span class="text-corporate"><strong>Eve</strong></span> (<strong>Ева</strong>).<br />
+Унаследовать <strong>Еву</strong> от <strong>Адама</strong>.</p>
+
+</div>

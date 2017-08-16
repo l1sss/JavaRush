@@ -1,0 +1,6 @@
+<div class="wdghtml" taskKey="com.javarush.task.task11.task1114">
+<h3>Религии</h3>
+<p>Изменить три класса: <span class="text-corporate"><strong>Judaism</strong></span> (<strong>Иудаизм</strong>), <span class="text-corporate"><strong>Christianity</strong></span> (<strong>Христианство</strong>), <span class="text-corporate"><strong>Islam</strong></span> (<strong>Мусульманство</strong>).<br />
+Унаследовать <strong>христианство</strong> от <strong>иудаизма</strong> и <strong>мусульманство</strong> от <strong>христианства</strong>.</p>
+
+</div>
