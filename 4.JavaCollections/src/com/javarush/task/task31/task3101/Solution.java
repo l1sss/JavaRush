@@ -12,13 +12,12 @@ public class Solution {
     private static List<File> list = new ArrayList<>();
 
     public static void main(String[] args) throws Exception {
-        File path = new File(args[0]);
-
         File resultFileAbsolutePath = new File(args[1]);
         File allFilesContent = new File(resultFileAbsolutePath.getParent() + "/allFilesContent.txt");
         FileUtils.renameFile(resultFileAbsolutePath, allFilesContent);
 
         try (FileWriter writer = new FileWriter(allFilesContent)) {
+            File path = new File(args[0]);
             runToDir(path);
             listSort();
 
