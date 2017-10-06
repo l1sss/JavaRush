@@ -2,9 +2,9 @@ package com.javarush.task.task31.task3102;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 /* 
 Находим все файлы
@@ -15,7 +15,7 @@ public class Solution {
 
         File rootFile = new File(root);
 
-        ArrayDeque<File> deque = new ArrayDeque<>();
+        Stack<File> deque = new Stack<>();
         deque.add(rootFile);
         while (!deque.isEmpty()) {
             File child = deque.pop();

@@ -14,10 +14,10 @@ public class Solution {
     public static void main(String[] args) throws IOException {
         SearchFileVisitor searchFileVisitor = new SearchFileVisitor();
 
-        searchFileVisitor.setPartOfName("amigo");
+        //searchFileVisitor.setPartOfName("amigo");
         searchFileVisitor.setPartOfContent("programmer");
-        searchFileVisitor.setMinSize(500);
-        searchFileVisitor.setMaxSize(10000);
+        //searchFileVisitor.setMinSize(500);
+        //searchFileVisitor.setMaxSize(10000);
 
         Files.walkFileTree(Paths.get("/home/l1s/IdeaProjects/test-folder"), searchFileVisitor);
 
