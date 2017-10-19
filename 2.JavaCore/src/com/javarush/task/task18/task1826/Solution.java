@@ -12,8 +12,8 @@ public class Solution {
     public static void main(String[] args) throws IOException {
         String key = "abra-kadabra";
 
-        try (FileInputStream reader = new FileInputStream(args[1]);
-             FileOutputStream writer = new FileOutputStream(args[2])) {
+        try (FileInputStream reader = new FileInputStream(args[0]);
+             FileOutputStream writer = new FileOutputStream(args[1])) {
             byte[] buffer = new byte[reader.available()];
 
             reader.read(buffer);
