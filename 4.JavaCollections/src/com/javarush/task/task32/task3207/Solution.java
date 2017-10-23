@@ -1,6 +1,7 @@
 package com.javarush.task.task32.task3207;
 
-import java.rmi.AlreadyBoundException;
+import
+        java.rmi.AlreadyBoundException;
 import java.rmi.NotBoundException;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
@@ -40,9 +41,7 @@ public class Solution {
 
             stub = UnicastRemoteObject.exportObject(service, 0);
             registry.bind(UNIC_BINDING_NAME, stub);
-        } catch (RemoteException e) {
-            e.printStackTrace();
-        } catch (AlreadyBoundException e) {
+        } catch (RemoteException | AlreadyBoundException e) {
             e.printStackTrace();
         }
 
