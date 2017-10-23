@@ -12,8 +12,8 @@ import java.rmi.server.UnicastRemoteObject;
 RMI-2
 */
 public class Solution {
-    public static final String UNIC_BINDING_NAME = "Animal.cat";
-    public static final String UNIC_BINDING_NAME2 = "Animal.dog";
+    public static final String UNIC_BINDING_NAME = "animal.cat";
+    public static final String UNIC_BINDING_NAME2 = "animal.dog";
     public static Registry registry;
 
     //pretend we start rmi client as CLIENT_THREAD thread
