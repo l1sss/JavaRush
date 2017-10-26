@@ -1,6 +1,7 @@
 package com.javarush.task.task33.task3304;
 
-import com.fasterxml.jackson.annotation.JsonSubTypes;
+import
+        com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -29,15 +30,15 @@ public class Solution {
         return mapper.readValue(new StringReader(result), resultClassObject);
     }
 
-    @JsonTypeInfo(use = JsonTypeInfo.Id.NAME,  property="className")
-    @JsonSubTypes(@JsonSubTypes.Type(value=First.class,  name="first"))
+    @JsonTypeInfo(use = JsonTypeInfo.Id.NAME, property = "className")
+    @JsonSubTypes(@JsonSubTypes.Type(value = First.class, name = "first"))
     public static class First {
         public int i;
         public String name;
     }
 
-    @JsonTypeInfo(use = JsonTypeInfo.Id.NAME,  property="className")
-    @JsonSubTypes(@JsonSubTypes.Type(value=Second.class, name="second"))
+    @JsonTypeInfo(use = JsonTypeInfo.Id.NAME, property = "className")
+    @JsonSubTypes(@JsonSubTypes.Type(value = Second.class, name = "second"))
     public static class Second {
         public int i;
         public String name;
