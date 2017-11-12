@@ -4,6 +4,9 @@ import java.io.*;
 import java.util.*;
 
 public class AmigoSet<E> extends AbstractSet<E> implements Set<E>, Serializable, Cloneable {
+
+    private static final long serialVersionUID = 633702251448929159L;
+
     private transient HashMap<E, Object> map;
 
     private static final Object PRESENT = new Object();
