@@ -10,6 +10,7 @@ public class ConvertableUtil {
         Map result = new HashMap();
 
         for (T e : list)
+            //noinspection unchecked
             result.put(e.getKey(), e);
 
         return result;
