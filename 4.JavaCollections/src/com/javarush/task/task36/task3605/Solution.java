@@ -4,8 +4,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Iterator;
 import java.util.TreeSet;
 
 /* 
@@ -22,10 +21,10 @@ public class Solution {
         for (char c : text.toCharArray())
             set.add(c);
 
-        List<Character> list = new ArrayList<>(set);
-        int printSize = list.size() < 5 ? list.size() : 5;
+        Iterator<Character> iterator = set.iterator();
+        int printSize = set.size() < 5 ? set.size() : 5;
         for (int i = 0; i < printSize; i++) {
-            System.out.print(list.get(i));
+            System.out.print(iterator.next());
         }
     }
 }
